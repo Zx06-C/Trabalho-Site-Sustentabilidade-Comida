@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  color: white;
+  background-color: white;
+}
+
+.interface {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header .interface .logo img {
+  width: 85px;
+  border-radius: 5px;
+}
+
+header {
+  width: 100%;
+  padding: 40px 0;
+  background-color: black;
+}
+
+header .interface {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .interface .menu-desktop nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+}
+
+header .interface .menu-desktop nav ul li {
+  display: inline-block;
+  margin: 0 40px;
+}
+
+header .interface .menu-desktop nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
+}
+
+header .interface .menu-desktop nav ul li a:hover {
+  transform: scale(1.3);
+  color: rgb(192, 48, 48);
+}
+
+header .interface .btn-doe button {
+  width: 140px;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  font-size: 18px;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+header .interface .btn-doe button:hover {
+  background-color: rgb(192, 48, 48);
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgb(192, 48, 48); /* O felipe me ensionou o box-shadow */
+}
+
+.hero iframe {
+  width: 100%;
+}
+.contato .icons-contato {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 15px;
+}
+.contato button {
+  height: 60px;
+  width: 300px;
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 0 40px;
+  border: 1px solid black;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.contato .icons-contato a {
+  text-decoration: none;
+}
+.contato button:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+.hero .contato .interface .icons-contato a i {
+  color: rgb(153, 36, 36);
+}
+.hero .contato .interface .icons-contato a {
+  color: black;
+  font-size: 20px;
+  text-align: left;
+}
+.hero .contato .interface .txt-contato {
+  font-size: 20px;
+  text-align: center;
+}
+.hero .contato .interface .txt-contato span {
+  display: block;
+}
+.hero .contato .interface .icons-contato h1 {
+  font-size: 20px;
+}
+
+
+/* RODAPÉ */
+
+footer {
+  padding: 30px 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.top-footer button {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 1.3rem;
+  margin: 0 10px;
+  transition: 0.2s;
+}
+
+.top-footer button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.middle-footer {
+  margin: 20px 0;
+}
+
+.middle-footer a {
+  margin: 0 15px;
+  color: white;
+}
+
+.bottom-footer {
+  border-top: 2px solid white;
+}
+
+.bottom-footer p {
+  font-size: 0.9rem;
+  margin-top: 20px;
+}

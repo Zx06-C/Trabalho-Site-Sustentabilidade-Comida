@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  color: white;
+  background-color: white;
+}
+
+.interface {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header .interface .logo img {
+  width: 85px;
+  border-radius: 5px;
+}
+
+header {
+  width: 100%;
+  padding: 40px 0;
+  background-color: black;
+}
+
+header .interface {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .interface .menu-desktop nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+}
+
+header .interface .menu-desktop nav ul li {
+  display: inline-block;
+  margin: 0 40px;
+}
+
+header .interface .menu-desktop nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
+}
+
+header .interface .menu-desktop nav ul li a:hover {
+  transform: scale(1.3);
+  color: rgb(192, 48, 48);
+}
+
+header .interface .btn-doe button {
+  width: 140px;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  font-size: 18px;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+header .interface .btn-doe button:hover {
+  background-color: rgb(192, 48, 48);
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgb(192, 48, 48); /* O felipe me ensionou o box-shadow */
+}
+
+/* HERO-SITE */
+
+.hero-site {
+  color: white;
+  height: 600px;
+  background-image: url(../img/imageDoeIG.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+.hero-site .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.705);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.hero-site .interface {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  z-index: 2;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-site h1 {
+  font-size: 4rem;
+  font-weight: 100;
+  margin: 20px 0;
+}
+
+.hero-site h1 span {
+  display: block;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.hero-site p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.hero-site button {
+  width: 220px;
+  font-size: 18px;
+  margin: 20px 0;
+  height: 50px;
+  padding: 15 30px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.hero-site button:hover {
+  background-color: rgb(192, 48, 48);
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgb(192, 48, 48);
+}
+
+/* PARTE DE DOACAO */
+.doacao {
+  padding: 60px 0;
+  background: #fff;
+  color: #333;
+}
+
+.conteudo {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.grade-doacao {
+  display: grid;
+  grid-template-columns: 1fr 480px;
+  gap: 48px;
+  align-items: start;
+}
+
+/* LADO ESQUERDO */
+.info-doacao h2 {
+  color: #e53935;
+  font-size: 28px;
+  margin: 0 0 18px;
+}
+.info-doacao h2 span {
+  font-weight: 700;
+}
+.texto-principal {
+  color: #777;
+  line-height: 1.8;
+  max-width: 520px;
+}
+.separador {
+  border: none;
+  height: 1px;
+  background: #eee;
+  margin: 28px 0;
+}
+
+/* DOACAO UNICA */
+.doacao-unica {
+  display: flex;
+  gap: 12px;
+  margin-top: 18px;
+  align-items: center;
+}
+.doacao-unica input[type="numero"] {
+  flex: 1;
+  padding: 14px 16px;
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  font-size: 16px;
+  color: rgb(51, 51, 51);
+}
+.btn-doar {
+  background: rgb(192, 48, 48);
+  color: white;
+  border: none;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* LADO DIREIRO: DOE MENSALMENTE */
+.cartoes-doacao .wrap-cartoes {
+  border: 1px solid whitesmoke;
+  border-radius: 6px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.02);
+}
+.cartao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 22px;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.cartao .valor {
+  font-weight: 700;
+  font-size: 18px;
+  color: #333;
+}
+.cartao .valor span {
+  font-weight: 400;
+  color: gray;
+  font-size: 13px;
+  margin-left: 8px;
+}
+.btn-doar-contorno {
+  background: rgb(192, 48, 48);
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+/* RODAPÉ */
+
+footer {
+  padding: 30px 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.top-footer button {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 1.3rem;
+  margin: 0 10px;
+  transition: 0.2s;
+}
+
+.top-footer button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.middle-footer {
+  margin: 20px 0;
+}
+
+.middle-footer a {
+  margin: 0 15px;
+  color: white;
+}
+
+.bottom-footer {
+  border-top: 2px solid white;
+}
+
+.bottom-footer p {
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
