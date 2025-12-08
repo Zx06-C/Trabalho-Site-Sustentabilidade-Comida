@@ -125,27 +125,6 @@ header .interface .btn-doe button:hover {
   font-weight: 300;
 }
 
-.hero-site button {
-  width: 220px;
-  font-size: 18px;
-  margin: 20px 0;
-  height: 50px;
-  padding: 15 30px;
-  background-color: transparent;
-  border: 2px solid white;
-  color: white;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.5s;
-}
-
-.hero-site button:hover {
-  background-color: rgb(192, 48, 48);
-  color: white;
-  border: 1px solid black;
-  cursor: pointer;
-  box-shadow: 0 0 20px rgb(192, 48, 48);
-}
 
 /* PARTE DE DOACAO */
 .doacao {
