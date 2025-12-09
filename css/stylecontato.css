@@ -13,7 +13,7 @@ body {
 .interface {
   max-width: 1280px;
   margin: 0 auto;
-}
+} 
 
 header .interface .logo img {
   width: 85px;
@@ -73,6 +73,15 @@ header .interface .btn-doe button:hover {
   cursor: pointer;
   box-shadow: 0 0 20px rgb(192, 48, 48); /* O felipe me ensionou o box-shadow */
 }
+.hero .contato{
+  padding: 100px 0;
+}
+.hero .contato .interface {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  
+}
 
 .hero iframe {
   width: 100%;
@@ -82,6 +91,9 @@ header .interface .btn-doe button:hover {
   flex-direction: column;
   height: 100%;
   gap: 15px;
+  border: 2px solid green;
+  border-radius: 10px;
+  padding: 20px;
 }
 .contato button {
   height: 60px;
@@ -98,14 +110,12 @@ header .interface .btn-doe button:hover {
   transition: 0.2s;
 }
 
-.contato .icons-contato a {
-  text-decoration: none;
-}
 .contato button:hover {
   background-color: black;
   color: white;
   border: 1px solid white;
 }
+
 .hero .contato .interface .icons-contato a i {
   color: rgb(153, 36, 36);
 }
@@ -113,16 +123,61 @@ header .interface .btn-doe button:hover {
   color: black;
   font-size: 20px;
   text-align: left;
+  text-decoration: none;
 }
 .hero .contato .interface .txt-contato {
   font-size: 20px;
   text-align: center;
 }
+.hero .txt-contato h3{
+  color: black;
+  text-align: center;
+  margin-top: 40px;
+}
 .hero .contato .interface .txt-contato span {
   display: block;
 }
 .hero .contato .interface .icons-contato h1 {
+  font-size: 18px;
+  color: black;
+}
+.hero .contato .interface .icons-contato2 h1 {
+  font-size: 17px;
+  color: black;
+  
+}
+.hero .contato .interface .icons-contato2{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: right;
+  color: black;
+  font-size: 15px;
+  border: 2px solid green;
+  border-radius: 10px;
+  padding: 20px;
+ 
+}
+.hero .contato .interface .icons-contato2 a i {
+  color: rgb(153, 36, 36);
+}
+.hero .contato .interface .icons-contato2 a {
+  color: black;
   font-size: 20px;
+  text-align: left;
+  text-decoration: none;
+}
+.hero .titulo h3{
+  text-align: center;
+  color: black;
+  margin-top: 15px;
+  font-size: 20px;
+  
+  
+}
+.hero .titulo h3 span{
+  display: block;
+  text-decoration-line:underline ;
 }
 
 

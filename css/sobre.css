@@ -75,6 +75,174 @@ header .interface .btn-doe button:hover {
     cursor: pointer;
     box-shadow: 0 0 20px rgb(192, 48, 48);  /* O felipe me ensionou o box-shadow */
 }
+/* BODY*/
+
+.banner {
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/doacao-comida.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* faz mover com o mouse */   
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+}
+
+.hero-site .interface{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.hero-site .titulo-oficial {
+ padding-top: 10px;
+ text-align: center;
+}
+.hero-site .titulo-oficial h1{
+  border: 2px solid white;
+  display: inline-block;
+  color: rgb(255, 108, 95) ;
+  text-align: center;
+  font-size: 30px;
+  padding: 8px 16px;
+  background-color: rgb(241, 219, 217);
+  border-radius: 6px;
+}
+.hero-site .interface .titulo-apresentativo{
+  padding-top: 2px;
+}
+.hero-site .interface .titulo-apresentativo h2{
+  color: rgb(38, 58, 79);
+  text-align: left; 
+  font-size: 30px;
+  width: 70%;
+  
+}
+.hero-site .interface .titulo-apresentativo p{
+  color: rgb(38, 58, 79);
+  text-align: left; 
+  font-size: 17px; 
+
+}
+.ilustracao{
+  padding-top: 100px;
+}
+.ilustracao img{
+    width: 600px;
+    height: auto;
+    border-radius: 10px;   
+}
+.hero-site .titulo2{
+  color: black;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 25px;
+  text-decoration-line: underline;
+  text-decoration-color: greenyellow;
+  text-decoration-thickness: 3px;
+
+}
+.hero-site .titulo2 h3{
+  padding-top: 50px;
+}
+
+.hero-site .pilares {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 60px;
+  gap: 20px;
+  margin-top: 70px;
+}
+
+.hero-site .pilares .card {
+  min-height: 550px;
+  border: 40px solid rgb(201, 191, 191);
+  border-radius: 10px;
+  width: 500px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  background-color: rgb(201, 191, 191);
+}
+
+.hero-site .pilares .card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.hero-site .pilares .card .descricao {
+  padding: 15px;
+}
+
+
+.hero-site .pilares .card .descricao h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: rgb(255, 108, 95);
+}
+
+.hero-site .pilares .card .descricao p {
+  font-size: 18px;
+  color: black;
+}
+.hero-site .colaboradores{
+  margin-top: 100px;
+}
+.colaboradores .time {
+    display: flex;
+    justify-content: center ; /* centraliza as imagens na linha */
+    gap: 100px;               /* espaço entre cada imagem */
+}
+.hero-site .colaboradores h1{
+  color: rgb(38, 58, 79);
+  text-align: center;
+}
+.hero-site .colaboradores p{
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.hero-site .colaboradores p span{
+  color: darkblue;
+}
+.hero-site .colaboradores .time img{
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+  margin-top: 60px;
+  border-radius: 10%;    
+  transition: transform 0.5s ease; 
+
+}
+.colaborador{
+  position: relative;  /* para posicionar o nome sobre a imagem */
+  display: flex;
+  justify-content: center;
+}
+.colaborador .nome {
+    position: absolute;
+    bottom: 40px;
+    color: white;
+    background-color: transparent;
+    padding: 3px 8px;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;   
+}
+
+.hero-site .colaboradores .time img:hover{
+  transform: scale(1.1);
+}
+
+
+
 
 
 /* RODAPÉ */
