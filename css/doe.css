@@ -125,7 +125,6 @@ header .interface .btn-doe button:hover {
   font-weight: 300;
 }
 
-
 /* PARTE DE DOACAO */
 .doacao {
   padding: 60px 0;
@@ -192,6 +191,15 @@ header .interface .btn-doe button:hover {
   cursor: pointer;
 }
 
+.btn-doar:hover {
+  background-color: rgb(192, 48, 48);
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgb(192, 48, 48);
+  transition: 0.5s;
+}
+
 /* LADO DIREIRO: DOE MENSALMENTE */
 .cartoes-doacao .wrap-cartoes {
   border: 1px solid whitesmoke;
@@ -226,7 +234,16 @@ header .interface .btn-doe button:hover {
   border-radius: 6px;
   border: none;
   cursor: pointer;
-  font-weight: 700;
+  font-weight: 600;
+}
+
+.btn-doar-contorno:hover {
+  background-color: rgb(192, 48, 48);
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgb(192, 48, 48);
+  transition: 0.5s;
 }
 
 /* RODAPÉ */
