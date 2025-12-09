@@ -196,7 +196,7 @@ header .interface .btn-doe button:hover {
 .colaboradores .time {
     display: flex;
     justify-content: center ; /* centraliza as imagens na linha */
-    gap: 100px;               /* espaço entre cada imagem */
+    gap: 100px; 
 }
 .hero-site .colaboradores h1{
   color: rgb(38, 58, 79);
@@ -234,7 +234,13 @@ header .interface .btn-doe button:hover {
     font-size: 40px;
     text-align: center;
     border-radius: 5px;
-    display: inline-block;   
+    display: inline-block;  
+    text-shadow: 22x 22px 25px rgb(0, 0, 0);
+}
+.colaborador .nome p{
+  font-size: 25px;
+  margin-top: 4px;
+  color: darkgreen;
 }
 
 .hero-site .colaboradores .time img:hover{
